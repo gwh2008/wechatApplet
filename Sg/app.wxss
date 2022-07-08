@@ -1,0 +1,15 @@
+@import "./styles/iconfont.wxss";
+page,view,text,swiper,swiper-item,image,navigator{
+  padding:0;   
+  margin:0;               
+  box-sizing:border-box; 
+}          
+page{  
+   --themeColor:#88ada6;
+  /* font-size: 28px; */
+  /*  https://www.showdoc.com.cn/128719739414963?page_id=2513235043485226  接口网站 */     
+}       
+
+image{
+  width: 100%; 
+} 

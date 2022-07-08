@@ -1,0 +1,20 @@
+<view class="pyg_index">
+	<SearchInput></SearchInput>
+	<view class="index_swiper">
+		<swiper autoplay indicator-dots circular>
+			<swiper-item wx:for="{{swiperList}}" wx:key="id">
+				<navigator>
+					<image mode="widthFix" src="{{item.rotaUrl}}"></image>
+				</navigator>
+			</swiper-item>
+		</swiper>
+	</view>
+	<view class='index_floor'>
+		<view class='index_recomend'>店长推荐</view>
+		<view class='index_cate'>
+			<view class='index_card' wx:for="{{floorList}}" wx:key="id">
+				<image mode="widthFix" src="{{item.firstImg}}"></image>
+			</view>
+		</view>
+	</view>
+</view>

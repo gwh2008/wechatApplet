@@ -1,0 +1,30 @@
+.first_tab{
+    .item{
+        display: flex;
+        border-bottom: 1rpx solid #ccc;
+        .img_tab{
+            flex:2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20rpx;
+        }
+        .info_tab{
+            flex:3;
+            padding: 20rpx;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            .text{
+                font-size: 30rpx;
+                display: -webkit-box;
+                overflow: hidden;
+                -webkit-box-orient: vertical;
+                -webkit-line-clamp: 2;
+            }
+            .price{
+                color:var(--themeColor);
+            }
+        }
+    }
+}
